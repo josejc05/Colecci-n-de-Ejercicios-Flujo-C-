@@ -21,6 +21,7 @@ namespace Geometria {
             std::cout << "Perimetro del circulo: " << calcularPerimetro() << std::endl;
             std::cout << "Pulsa una tecla para continuar..." << std::endl;
             std::cin.get(); // Espera a que el usuario presione una tecla
+            std::cin.get();
             std::cout << "Area del circulo: " << calcularArea() << std::endl;
             std::cout << "Pulsa una tecla para salir..." << std::endl;
             std::cin.get(); // Espera a que el usuario presione una tecla
